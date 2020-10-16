@@ -3,15 +3,15 @@ using UnityEngine;
 
 public class CircleRotatingTween : MonoBehaviour
 {
-    [SerializeField] private Transform firstPart;
-    [SerializeField] private Transform secondPart;
+    [SerializeField] private Transform firstPart = default;
+    [SerializeField] private Transform secondPart = default;
 
     private void Start()
     {
         PlayAnimation();
     }
     
-    public void PlayAnimation()
+    private void PlayAnimation()
     {
         var sequence = DOTween.Sequence();
         sequence.Append(firstPart.transform.DOLocalRotate(new Vector3(0f, 360, 0f), 1f, RotateMode.LocalAxisAdd));

@@ -7,9 +7,8 @@ public class SwordLoadingTween : MonoBehaviour
     {
         PlayAnimation();
     }
-
-    // 65 -120 -20 -45
-    public void PlayAnimation()
+    
+    private void PlayAnimation()
     {
         var sequence = DOTween.Sequence();
         sequence.Append(transform.DOLocalRotate(new Vector3(0, 0, 65f), 0.3f));
