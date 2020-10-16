@@ -8,6 +8,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/SwordLoadingTween.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CircleRotatingTween.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ButtonTween.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Test_16_10_2020/Assets/Route.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Test_16_10_2020/Assets/MenuController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -17,6 +19,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/ButttonTweener.cs" />
         <option value="$PROJECT_DIR$/Assets/ButtonTween.cs" />
+        <option value="$PROJECT_DIR$/Assets/CircleRotatingTween.cs" />
+        <option value="$PROJECT_DIR$/Assets/SwordLoadingTween.cs" />
       </list>
     </option>
   </component>
@@ -60,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602838537709</updated>
-      <workItem from="1602838553483" duration="1303000" />
+      <workItem from="1602838553483" duration="3399000" />
     </task>
     <servers />
   </component>
